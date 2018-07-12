@@ -1,0 +1,22 @@
+page-visitor-list {
+
+    .tabCol{
+        border: 1px solid black;
+        text-align: center;
+    }
+    .tabCol:nth-child(1),.tabCol:nth-child(2),.tabCol:nth-child(3),.tabCol:nth-child(4),.tabCol:nth-child(5),.tabCol:nth-child(6){
+        border-bottom: none;
+    }
+    h5{
+        font-size: 1.5rem;
+    }
+    .cancelBtn{
+        background-color: #af5b14;
+    }
+    .bottomBtns{
+      margin-top: 35rem;
+    }
+    .tabCol:nth-child(4),.tabCol:nth-child(7){
+        padding-top: 1.5rem;
+    }
+}
