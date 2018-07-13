@@ -1,14 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the VisitorListPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
-@IonicPage()
+import { VisitorPage } from '../visitor/visitor';
 @Component({
   selector: 'page-visitor-list',
   templateUrl: 'visitor-list.html',
