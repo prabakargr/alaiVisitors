@@ -2,6 +2,9 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav } from 'ionic-angular';
 import { VisitorPage } from '../visitor/visitor';
 import { VisitorListPage } from '../visitor-list/visitor-list';
+import {VisitorRegistrationPage} from '../visitor-registration/visitor-registration';
+import {CommunicationPage} from '../communication/communication';
+import {CommunicationVideoPage} from '../communication-video/communication-video'
 
 @Component({
   selector: 'page-home',
@@ -19,7 +22,16 @@ export class HomePage {
       case 'list':
         this.nav.setRoot(VisitorListPage);
         break;
-        
+      case 'register':
+         this.nav.setRoot(VisitorRegistrationPage);
+         break;
+      case 'communication':
+         this.nav.setRoot(CommunicationPage); 
+         break;
+      case 'communicationVideo':
+         this.nav.setRoot(CommunicationVideoPage); 
+         break;   
+         
       default:
         this.nav.setRoot(VisitorPage);
         break;

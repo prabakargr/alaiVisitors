@@ -8,13 +8,20 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { VisitorPage } from '../pages/visitor/visitor'
 import { VisitorListPage } from '../pages/visitor-list/visitor-list'
+import {VisitorRegistrationPage} from '../pages/visitor-registration/visitor-registration';
+import {CommunicationPage} from '../pages/communication/communication';
+import {CommunicationVideoPage} from '../pages/communication-video/communication-video';
+
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     VisitorPage,
-    VisitorListPage
+    VisitorListPage,
+    VisitorRegistrationPage,
+    CommunicationPage,
+    CommunicationVideoPage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +34,10 @@ import { VisitorListPage } from '../pages/visitor-list/visitor-list'
     MyApp,
     HomePage,
     VisitorPage,
-    VisitorListPage
+    VisitorListPage,
+    VisitorRegistrationPage,
+    CommunicationPage,
+    CommunicationVideoPage
   ],
   providers: [
     StatusBar,

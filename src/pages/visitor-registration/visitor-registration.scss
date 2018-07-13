@@ -1,0 +1,30 @@
+page-visitor-registration {
+
+    .genderSelection{
+        margin-top: 1rem;
+        padding-left: 2rem;
+    }
+    ion-icon {
+        font-size: 2.5em;
+        padding-left: 1rem;
+    }
+    .checkBox:nth-child(1),.checkBox:nth-child(2){
+        margin-top: 1rem;
+    }  
+    h5{
+        padding: 3rem 0rem 1rem 2rem;
+    } 
+    h6 {
+        font-size: 1.6rem;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        padding-left: 1.4rem;
+        padding-top: 1rem;
+    }
+    .cancelBtn{
+        background-color: #af5b14;
+    }
+    .bottomBtns{
+      margin-top: 9rem;
+    }
+}
