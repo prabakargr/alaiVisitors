@@ -1,33 +1,89 @@
 page-visitor-registration {
-
-    .genderSelection{
+    .genderSelection {
         margin-top: 1rem;
         padding-left: 2rem;
+        ion-icon {
+            color: #88325c;
+        }
     }
     ion-icon {
         font-size: 2.5em;
-        padding-left: 1rem;
     }
-    .checkBox:nth-child(1),.checkBox:nth-child(2){
+    ion-label {
+        color: #88325c;
+    }
+    .checkbox-checked {
+        border-color: #88325c !important;
+        background-color: #88325c !important;
+    }
+    .date {
+        border-bottom: 0.55px solid #c8c7cc;
+        margin-left: 2rem;
+        padding-left: 0;
+        /* margin-right: 1rem; */
+        width: 95%;
+        .item-inner {
+            border-bottom: 0px !important;
+        }
+        ion-icon {
+            margin-bottom: 0 !important;
+            margin-top: 3rem !important;
+            color: #88325c;
+        }
+        .datetime-text {
+            color: #88325c;
+        }
+    }
+    .grid {
+        .row:nth-child(4) {
+            margin-top: 2rem;
+            color: #88325c;
+        }
+        .row:nth-child(1) {
+            margin-bottom: 2rem;
+        }
+        .row:last-child {
+            margin-top: 4rem;
+        }
+    }
+    .time {
+        border-bottom: 0.55px solid #c8c7cc;
+        margin-left: 2rem;
+        .item-inner {
+            border-bottom: 0px !important;
+            ion-label {
+                margin-top: 0 !important;
+            }
+        }
+        ion-item:nth-child(1) {
+            padding-left: 0 !important;
+        }
+    }
+    .checkBox:nth-child(1),
+    .checkBox:nth-child(2) {
         margin-top: 1rem;
-    }  
-    h5{
-        padding: 3rem 0rem 1rem 2rem;
-    } 
+    }
+    h5 {
+        padding: 3rem 0rem 0rem 0rem;
+        color: #88325c;
+    }
     h6 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         margin-bottom: 0px;
         margin-top: 20px;
         padding-left: 1.4rem;
         padding-top: 1rem;
     }
-    .cancelBtn{
+    .cancelBtn {
         background-color: #af5b14;
     }
-    .bottomBtns{
-      margin-top: 1rem;
+    .bottomBtns {
+        margin-top: 1rem;
     }
-    .iconDate{
-      margin-top: 4rem;
+    .iconDate {
+        margin-top: 4rem;
+    }
+    input {
+        color: #88325c;
     }
 }
