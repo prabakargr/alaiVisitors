@@ -9,10 +9,24 @@ page-communication {
     .iconVoice{
         padding-top: 10rem;
     }
-    .cancelBtn{
-        background-color: #af5b14;
-    }
     .bottomBtns{
       margin-top: 8rem;
     }
+}
+.BtmFirstBtn{
+    background-color: #88325c;
+}
+.cancelBtn{
+    background-color: #b7aca7 !important;
+}
+ion-title {
+    // left: 0;
+    // top: 0;
+    padding: 0 60px 1px !important;
+    // position: absolute;
+    // width: 100%;
+    // height: 100%;
+    // -webkit-transform: translateZ(0);
+    // transform: translateZ(0);
+    // pointer-events: none;
 }
