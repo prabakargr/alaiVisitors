@@ -1,0 +1,73 @@
+<!--
+  Generated template for the UnregisteredPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-toolbar>
+    <ion-navbar>
+        <button ion-button menuToggle icon-only>
+        <ion-icon name='menu'></ion-icon>
+      </button>
+        <ion-title>Unregistered Visitors</ion-title>
+    </ion-navbar>
+    <ion-buttons end>
+        <button ion-button icon-only>
+            <ion-icon name="home"></ion-icon>
+        </button>
+    </ion-buttons>
+</ion-toolbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-grid>
+        <ion-row class="searchRow">
+            <ion-col col-9 class="searchBar">
+                    <ion-searchbar placeholder="Search By Name or Block + Unit"></ion-searchbar>
+            </ion-col>
+            <ion-col col-3>
+                    <ion-icon name="search"></ion-icon><ion-icon name="call"></ion-icon>
+            </ion-col>
+        </ion-row>
+        <ion-row class="videoMic">
+            <ion-col col-6 align="center">
+                <ion-icon name="videocam"></ion-icon>
+            </ion-col>
+            <ion-col col-6 align="center">
+                <ion-icon name="mic"></ion-icon>
+            </ion-col>
+        </ion-row>
+        <ion-row class="camScan">
+            <ion-col col-12 align="center">
+                <ion-icon name="camera"></ion-icon>
+                <p>ID Card</p>
+            </ion-col>
+            <ion-col col-12 class="BtnScan">
+                    <button ion-button full class="BtmFirstBtn">SCAN</button>
+            </ion-col>
+        </ion-row>
+        <ion-row class="checkBoxTerms">
+            <ion-col col-1>
+                    <ion-checkbox color="dark"></ion-checkbox>
+            </ion-col>
+            <ion-col col-11 class="TermsValues">
+                    <span>Recorded ID Proof and verified details</span>
+            </ion-col>
+            <ion-col col-1>
+                    <ion-checkbox color="dark"></ion-checkbox>
+            </ion-col>
+            <ion-col col-11 class="TermsValues">
+                    <span>Entry Approved by Tenant</span>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+                <ion-col col-12 class="BtnScan">
+                        <button ion-button full class="BtmFirstBtn">Generate Visitor Pass</button>
+                </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

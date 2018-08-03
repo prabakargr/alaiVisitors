@@ -1,0 +1,55 @@
+page-registered {
+.BarScan{
+    height: 20rem;
+    background-color: lightgrey;
+    img{
+        padding-top: 5rem;
+    }
+    .BtnScan{
+        padding: 0;
+        padding-top: 2rem;
+    }
+    .BtmFirstBtn{
+        padding: 0;
+        border-radius: 4px;
+    }
+}
+.scanId{
+    margin-top: 6rem;
+    height: 20rem;
+    background-color: lightgrey;
+    ion-icon{
+        font-size: 6em;
+        padding-top: 4rem;
+        color: #88325c;
+    }
+    .BtnScan{
+        padding: 0;
+        padding-top: 2rem;
+    }
+    .BtmFirstBtn{
+        padding: 0;
+        border-radius: 4px;
+    }
+    
+}
+.checkBoxReg{
+    .checkbox-checked {
+        border-color: #88325c !important;
+        background-color: #88325c !important;
+    }
+    .TermsValues{
+        padding-top: 1rem;
+    }
+}
+.BtnScan{
+    padding: 0;
+    padding-top: 2rem;
+}
+.BtmFirstBtn{
+    padding: 0;
+    border-radius: 4px;
+}
+
+
+}

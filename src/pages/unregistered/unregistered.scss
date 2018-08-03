@@ -1,0 +1,57 @@
+page-unregistered {
+    .searchBar{
+        padding-left: 0;
+    }
+    .searchRow{
+        ion-icon{
+            font-size: 2.5em;
+            padding-left: 1.6rem; 
+            padding-top: 0.4rem;
+            color: #88325c;
+        }
+    }
+    .videoMic{
+        height: 20rem;
+        background-color: lightgray;
+        padding-top: 6rem;
+        margin-top: 2rem;
+    ion-icon{
+        font-size: 4em;
+        color: #88325c;
+    }    
+    }
+    .camScan{
+        height: 20rem;
+        background-color: lightgray;
+        padding-top: 1rem;
+        margin-top: 2rem;
+        ion-icon{
+            font-size: 6em;
+            padding-top: 2rem;
+            color: #88325c;
+        }
+        p{
+            font-size: 2rem;
+            margin: 0;
+        }
+        .BtnScan{
+            padding: 0;
+            padding-top: 2rem;
+        } 
+    }
+    .BtmFirstBtn{
+        padding: 0;
+        border-radius: 4px;
+    }
+    .checkBoxTerms{
+        margin-top: 4rem;
+        .checkbox-checked {
+            border-color: #88325c !important;
+            background-color: #88325c !important;
+        }
+        .TermsValues{
+            padding-top: 1rem;
+        }
+    }
+
+}

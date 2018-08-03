@@ -5,6 +5,8 @@ import { VisitorListPage } from '../visitor-list/visitor-list';
 import {VisitorRegistrationPage} from '../visitor-registration/visitor-registration';
 import {CommunicationPage} from '../communication/communication';
 import {CommunicationVideoPage} from '../communication-video/communication-video'
+import {UnregisteredPage} from '../unregistered/unregistered';
+import {RegisteredPage} from '../registered/registered';
 
 @Component({
   selector: 'page-home',
@@ -30,7 +32,13 @@ export class HomePage {
          break;
       case 'communicationVideo':
          this.nav.setRoot(CommunicationVideoPage); 
-         break;   
+         break;
+      case 'unregistered':
+         this.nav.setRoot(UnregisteredPage)
+         break 
+      case 'registered':
+         this.nav.setRoot(RegisteredPage)
+         break         
          
       default:
         this.nav.setRoot(VisitorPage);

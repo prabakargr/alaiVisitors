@@ -11,6 +11,8 @@ import { VisitorListPage } from '../pages/visitor-list/visitor-list'
 import {VisitorRegistrationPage} from '../pages/visitor-registration/visitor-registration';
 import {CommunicationPage} from '../pages/communication/communication';
 import {CommunicationVideoPage} from '../pages/communication-video/communication-video';
+import {UnregisteredPage} from '../pages/unregistered/unregistered';
+import {RegisteredPage} from '../pages/registered/registered';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import {CommunicationVideoPage} from '../pages/communication-video/communication
     VisitorListPage,
     VisitorRegistrationPage,
     CommunicationPage,
-    CommunicationVideoPage
+    CommunicationVideoPage,
+    UnregisteredPage,
+    RegisteredPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +41,9 @@ import {CommunicationVideoPage} from '../pages/communication-video/communication
     VisitorListPage,
     VisitorRegistrationPage,
     CommunicationPage,
-    CommunicationVideoPage
+    CommunicationVideoPage,
+    UnregisteredPage,
+    RegisteredPage
   ],
   providers: [
     StatusBar,
